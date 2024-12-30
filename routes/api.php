@@ -11,3 +11,12 @@ Route::controller(AuthController::class)->group(function(){
     Route::get('logout','userLogout')->middleware('auth:sanctum');
 
 });
+// API_END_POINT:
+// Register:
+// http://localhost:8000/api/register
+// Login:
+// http://localhost:8000/api/login
+// User:
+// http://localhost:8000/api/user
+// Logout:
+// http://localhost:8000/api/logout
